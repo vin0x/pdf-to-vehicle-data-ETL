@@ -1,0 +1,56 @@
+# Extração e Transformação de Dados a partir de PDF
+- README em Português, clique aqui -> [<img align="center" alt="vin0x-brasil" height="25" width="40" src="https://github.com/hampusborgos/country-flags/blob/main/png250px/br.png">](https://github.com/vin0x/pdf-vehicle-data-ETL/blob/main/README-pt_br.md)
+
+- README in English, click here -> [<img align="center" alt="vin0x-windows" height="25" width="40" src="https://github.com/hampusborgos/country-flags/blob/main/png250px/us.png">](https://github.com/vin0x/pdf-vehicle-data-ETL/blob/main/README.md)
+
+## Sobre
+
+Este projeto demonstra como extrair dados de um arquivo PDF contendo dados de carros e salvá-los como um arquivo CSV. Os dados são processados usando bibliotecas Python como `tabula`, `pandas`, `numpy`, `seaborn` e `matplotlib`. As principais tarefas realizadas incluem extração, transformação, limpeza e visualização de dados.
+
+_PS: Parte de carregamento em breve..._
+
+## Funcionalidades:
+
+- Baixar um PDF contendo dados do mercado automotivo.
+- Extrair as tabelas do PDF.
+- Limpar, transformar e organizar os dados em um DataFrame do pandas.
+- Visualizar valores ausentes e distribuição de dados.
+- Exportar os dados limpos finais para um arquivo CSV para uso posterior.
+
+## Exemplo
+  <img src="images/Capture0.PNG" width="300" />
+  <img src="images/Capture1.PNG" width="300" />
+  <img src="images/Capture2.PNG" width="300" />
+
+  Dados limpos: Ver data.csv
+
+## Tecnologias Utilizadas e Requisitos
+
+- **Python**: 🐍
+- `Pandas`: Biblioteca de manipulação e análise de dados.
+- `NumPy`: Biblioteca de computação numérica.
+- `Tabula`: Biblioteca para extração de tabelas de PDFs.
+- `Seaborn`: Biblioteca de visualização de dados baseada no matplotlib.
+- `Matplotlib`: Biblioteca de plotagem para criar visualizações.
+
+## Instalação
+
+Para executar este projeto, você precisa ter Python instalado junto com as bibliotecas necessárias. Você pode instalar as bibliotecas necessárias usando `pip`:
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/vin0x/pdf-to-vehicle-data-ETL.git
+   
+2. Coloque o arquivo PDF (2024_07_02.pdf) no diretório especificado na variável `filepath` dentro do notebook.
+
+3. Execute o notebook Jupyter para realizar o processo de extração e transformação de dados.
+
+4. O DataFrame final será salvo como `data.csv` no local especificado.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+## Contato
+
+Se você tiver alguma dúvida, sinta-se à vontade para entrar em contato vinigoes@outlook.com ou vinox_quente no Discord.
