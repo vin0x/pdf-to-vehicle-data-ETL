@@ -23,6 +23,7 @@ Este projeto demonstra como extrair dados de um arquivo PDF contendo dados de ca
   <img src="images/Capture0.PNG" width="300" />
   <img src="images/Capture1.PNG" width="300" />
   <img src="images/Capture2.PNG" width="300" />
+  <img src="images/Capture4.PNG" width="300" />
 
   Dados limpos: Ver data.csv
 
@@ -34,20 +35,6 @@ Este projeto demonstra como extrair dados de um arquivo PDF contendo dados de ca
 - `Pypdf`: Biblioteca para extração de dados de PDFs.
 - `Seaborn`: Biblioteca de visualização de dados baseada no matplotlib.
 - `Matplotlib`: Biblioteca de plotagem para criar visualizações.
-
-## Instalação
-
-Para executar este projeto, você precisa ter Python instalado junto com as bibliotecas necessárias. Você pode instalar as bibliotecas necessárias usando `pip`:
-
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/vin0x/pdf-to-vehicle-data-ETL.git
-   
-2. Coloque o arquivo PDF (2024_07_02.pdf) no diretório especificado na variável `filepath` dentro do notebook.
-
-3. Execute o notebook Jupyter para realizar o processo de extração e transformação de dados.
-
-4. O DataFrame final será salvo como `data.csv` no local especificado.
 
 ## Licença
 
