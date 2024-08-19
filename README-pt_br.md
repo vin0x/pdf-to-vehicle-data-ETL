@@ -5,9 +5,7 @@
 
 ## Sobre
 
-Este projeto demonstra como extrair dados de um arquivo PDF contendo dados de carros e salvá-los como um arquivo CSV. Os dados são processados usando bibliotecas Python como `tabula`, `pandas`, `numpy`, `seaborn` e `matplotlib`. As principais tarefas realizadas incluem extração, transformação, limpeza e visualização de dados.
-
-_PS: Parte de carregamento em breve..._
+Este projeto demonstra como extrair dados de um arquivo PDF contendo dados de carros e salvá-los como um arquivo CSV. Os dados são processados usando bibliotecas Python como `Pypdf`, `pandas`, `numpy`, `seaborn` e `matplotlib`. As principais tarefas realizadas incluem extração, transformação, limpeza e visualização de dados.
 
 ## Funcionalidades:
 
@@ -16,6 +14,10 @@ _PS: Parte de carregamento em breve..._
 - Limpar, transformar e organizar os dados em um DataFrame do pandas.
 - Visualizar valores ausentes e distribuição de dados.
 - Exportar os dados limpos finais para um arquivo CSV para uso posterior.
+- Último dataframe carregado em um banco de dados AWS RDS.
+- Integração com o MS Power BI para criação de visuais dinâmicos.
+- AWS EC2 para rodar um Linux dedicado para o Apache Airflow.
+- Apache Airflow para automatização do refresh mensal.
 
 ## Exemplo
   <img src="images/Capture0.PNG" width="300" />
@@ -29,7 +31,7 @@ _PS: Parte de carregamento em breve..._
 - **Python**: 🐍
 - `Pandas`: Biblioteca de manipulação e análise de dados.
 - `NumPy`: Biblioteca de computação numérica.
-- `Tabula`: Biblioteca para extração de tabelas de PDFs.
+- `Pypdf`: Biblioteca para extração de dados de PDFs.
 - `Seaborn`: Biblioteca de visualização de dados baseada no matplotlib.
 - `Matplotlib`: Biblioteca de plotagem para criar visualizações.
 
