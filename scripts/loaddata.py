@@ -13,7 +13,7 @@ def load_data_to_rds(csv_path, user, password, host, port, database, table_name)
         with engine.connect() as connection:
             print("Connected to the database!")
 
-            df.to_sql(table_name, engine, if_exists='replace', index=False)
+            df.to_sql(table_name, engine, if_exists='append', index=False)
             print(f"Data loaded into table '{table_name}'")
 
             # query the table to verify data was inserted correctly
