@@ -5,7 +5,7 @@
 
 ## About
 
-This project demonstrates how to extract data from a PDF file containing car data, and save it as a CSV file. The data is processed using Python libraries such as `pypdf`, `pandas`, `numpy`, `seaborn`, and `matplotlib`. The main tasks performed include data extraction, transformation, cleaning, load and visualization.
+This project extract data from a website (.pdf file) containing car data, manipulate data, store in a AWS RDS, create pipeline with Apache Airflow to automatically refresh and create a Power BI Dashboard. The data is processed using Python libraries such as `pypdf`, `pandas`, `numpy`, `requests`, `seaborn`, and `matplotlib`. The main tasks performed include data extraction, transformation, cleaning, load and visualization.
 
 ## Features:
 
