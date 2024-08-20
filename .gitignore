@@ -1,2 +1,7 @@
 
 notebooks/.ipynb_checkpoints/Fenabrave ETL-checkpoint.ipynb
+*.pdf
+scripts/.ipynb_checkpoints/loaddata-checkpoint.py
+scripts/__pycache__/loaddata.cpython-312.pyc
+scripts/__pycache__/loaddata.cpython-312.pyc
+scripts/__pycache__/loaddata.cpython-312.pyc
