@@ -21,6 +21,7 @@ This project extract data from a website (.pdf file) containing car data, manipu
 - Final DataFrame loaded into **AWS RDS** for storage
 - Integrated with **Power BI** for dynamic visualizations
 - Configured **Apache Airflow** for automated monthly data refresh
+- Using **ARIMA** to forecasting 2025 sales and **Scikitlearn** to analyze model performance _(tbu)_
 
 ## Images
 
@@ -31,8 +32,10 @@ This project extract data from a website (.pdf file) containing car data, manipu
   <img src="images/Capture6.PNG" width="300" />
   <img src="images/Capture7.PNG" width="300" />
 
-  Cleaned data: [View data.csv](https://github.com/vin0x/pdf-to-vehicle-data-ETL/blob/main/data/data.csv)
+## Power BI Dashboard
+- [pt-BR](https://app.powerbi.com/view?r=eyJrIjoiNWEzMDAzMzQtNjM5Zi00OWQzLTg2ZTAtYjAzNjBmOWU5MDEzIiwidCI6IjE2OGQ0MTM3LWQ2ZjYtNDVmOC1hYWE3LWQxYTcwMjMzMDk1ZSIsImMiOjR9&pageName=32741afe55bae1175533)
 
+- [en-US](https://app.powerbi.com/view?r=eyJrIjoiNWEzMDAzMzQtNjM5Zi00OWQzLTg2ZTAtYjAzNjBmOWU5MDEzIiwidCI6IjE2OGQ0MTM3LWQ2ZjYtNDVmOC1hYWE3LWQxYTcwMjMzMDk1ZSIsImMiOjR9&pageName=b587baece6c6c19e9d04)
   
 ## Technologies Used and Requirements
 
