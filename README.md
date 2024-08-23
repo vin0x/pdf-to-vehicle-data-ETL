@@ -7,6 +7,8 @@
 
 This project extract data from a website (.pdf file) containing car data, manipulate data, store in a AWS RDS, create pipeline with Apache Airflow to automatically refresh and create a Power BI Dashboard. The data is processed using Python libraries such as `pypdf`, `pandas`, `numpy`, `requests`, `seaborn`, and `matplotlib`. The main tasks performed include data extraction, transformation, cleaning, load and visualization.
 
+  <img src="images/Capture5.PNG" width="300" />
+
 ## Features:
 
 - Downloading a PDF containing car market data.
@@ -18,13 +20,16 @@ This project extract data from a website (.pdf file) containing car data, manipu
 - Integrated with **Power BI** for dynamic visualizations
 - Configured **Apache Airflow** for automated monthly data refresh
 
-## Example
+## Images
+
   <img src="images/Capture0.PNG" width="300" />
   <img src="images/Capture1.PNG" width="300" />
   <img src="images/Capture2.PNG" width="300" />
   <img src="images/Capture4.PNG" width="300" />
+  <img src="images/Capture6.PNG" width="300" />
+  <img src="images/Capture7.PNG" width="300" />
 
-  Cleaned data: [View data.csv](https://github.com/vin0x/pdf-to-vehicle-data-ETL/blob/main/data.csv)
+  Cleaned data: [View data.csv](https://github.com/vin0x/pdf-to-vehicle-data-ETL/blob/main/data/data.csv)
 
   
 ## Technologies Used and Requirements
@@ -36,6 +41,8 @@ This project extract data from a website (.pdf file) containing car data, manipu
 - `Seaborn`: Data visualization library based on matplotlib.
 - `Matplotlib`: Plotting library for creating visualizations.
 - `Requests`: Send API requests to download file from a website.
+- `Scikit-learn`: Train, test, regression and evaluate model performance of past sales data.
+- `ARIMA`: Forecasting sales data.
 
 ## License
 
