@@ -18,6 +18,7 @@ Este projeto demonstra como extrair dados de um arquivo PDF contendo dados de ca
 - Integração com o MS Power BI para criação de visuais dinâmicos.
 - AWS EC2 para rodar um Linux dedicado para o Apache Airflow.
 - Apache Airflow para automatização do refresh mensal.
+- Usando ARIMA para realizar forecast do ano de 2025 e Scikitlearn para avaliar a performance dos modelos (tbu)
 
 ## Exemplo
   <img src="images/Capture0.PNG" width="300" />
