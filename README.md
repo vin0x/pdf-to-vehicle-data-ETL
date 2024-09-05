@@ -5,7 +5,7 @@
 
 ## About
 
-This project extract data from a website (.pdf file) containing car data, manipulate data, store in a AWS RDS, create pipeline with Apache Airflow to automatically refresh and create a Power BI Dashboard. The data is processed using Python libraries such as `pypdf`, `pandas`, `numpy`, `requests`, `seaborn`, `matplotlib`, `scikit-learn` and `ARIMA`. The main tasks performed include data extraction, transformation, cleaning, forecasting, load and visualization.
+This project extract data from a website (.pdf file) containing car data, manipulate data, store in a AWS RDS, create pipeline with Apache Airflow to automatically refresh and create a Power BI Dashboard. The data is processed using Python libraries such as `pypdf`, `pandas`, `numpy`, `requests`, `seaborn`, `matplotlib`, `scikit-learn` and `ARIMA/SARIMA`. The main tasks performed include data extraction, transformation, cleaning, forecasting, load and visualization.
 
   <p align="center">
   <img src="images/Capture5.PNG" width="500" />
@@ -47,7 +47,7 @@ This project extract data from a website (.pdf file) containing car data, manipu
 - `Matplotlib`: Plotting library for creating visualizations.
 - `Requests`: Send API requests to download file from a website.
 - `Scikit-learn`: Train, test, regression and evaluate model performance of past sales data.
-- `ARIMA`: Forecasting sales data.
+- `ARIMA/SARIMA`: Forecasting sales data.
 
 ## License
 
